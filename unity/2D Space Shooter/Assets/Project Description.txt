@@ -1,0 +1,62 @@
+On part 21 http://walkerboystudio.com/html/unity_course_lab_2.html
+
+Project Description
+	In our Project Description we will layout a very basic concept for the game we are to make.
+	As we advance in game types and scope of production we will also advance in the documentation
+	of these projects to more fully realize the project at the beginning of development. One step
+	at a time.
+	
+Learning Objectives
+	Introduction to file management and assets
+	Introduction to game scripting
+	Introduction to GUI Elements
+	Introduction to Input
+	Introduction to Events
+	Introduction to Scene Loading
+	
+Production Time
+	Setup	10 minutes - 3 minutes
+	Assets	45 minutes - 47 minutes
+	Player	30 minutes - 73 minutes
+	Enemy	20 minutes - 42 minutes
+	Menus	40 minutes - 55 minutes
+	GUI		30 minutes - 43 minutes
+	Game	60 minutes - 65 minutes
+	Build	10 minutes - 3 minutes
+	Review	10 minutes - 3 minutes
+	
+	Time:
+		(Lab)
+		Research		- 9 minutes
+		Art				- 52 minutes
+		Design 			- 66 minutes
+		Coding 			- 198 minutes
+		Playtesting		- 9 minutes
+		
+		(Own)
+		Research		- 35 minutes
+		Art				- 26 minutes
+		Design 			- 31 minutes
+		Coding 			- 150 minutes
+		Playtesting		- 29 minutes
+	
+	
+High Concept
+	A space shooter where the player must avoid asteroids that try to destroy their ship.
+	Score as many points as you can by shooting the asteroids in a given amount of time.
+	
+Controls
+	Arrow keys move the player ship left, right, up and down.
+	Space bar shoots the player weapon.
+	C creates a temporary shield for protection.
+	
+Mockup Assets
+	Player Ship
+	Asteroid
+	Bullet
+	Shield
+	Blocks
+	Explosion
+	
+(Note: Each assets will need support files such as materials, audio, scripts etc
+ These will be discussed during production.)

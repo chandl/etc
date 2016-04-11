@@ -1,0 +1,35 @@
+Project Description
+	Layout basic concept for the game to be made in this description
+	
+Objectives:
+	Assets Creation
+	Game Scripting
+	GUI Elements
+	Imput
+	Events
+	Scene Loading
+	
+Production Time:
+	Setup  10 minutes
+	Assets 45 minutes
+	Player 30 minutes
+	Enemy  20 minutes
+	Menues 40 minutes
+	GUI    30 minutes
+	Build  10 minutes
+	Review 10 minutes
+	
+High Concept:
+	A fast paced mouse clicking game. Using the mouse, click on and destroy as many shapes as possible to earn points and set high scores.
+	
+Controls:
+	Use the left mouse button to select on the shapes and destroy them
+	
+Mockup Assets:
+	Targets
+	Explosion
+	
+(Note: Each asset will need support files (i.e. materials,audio,scripts,etc...))
+
+1/14/14 ended on part 14 http://walkerboystudio.com/html/unity_course_lab_1.html
+1/15/14 ended on part 19 http://vimeo.com/album/1512103/video/18907860 <next

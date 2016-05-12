@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top nb">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand nav-white" href="#"><i class="glyphicon glyphicon-user"></i> my portfolio</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" class="nav-white nav-about">about</a></li>
+        <li><a href="#" class="nav-white nav-portfolio">portfolio</a></li>
+        <li><a href="#" class="nav-white nav-contact">contact me</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row main">
+    <div class="col-md-4 about">
+      <h1><i class="glyphicon glyphicon-info-sign"></i> Hey, I'm Chandler.</h1>
+      <img src="http://placehold.it/300x300" class="img-responsive img-circle" alt="picture of me"> </img>
+      <h3 class="under-me"><i class="glyphicon glyphicon-arrow-up"></i>That's Me!<i class="glyphicon glyphicon-arrow-up"></i></h3>
+    </div>
+    <div class="col-md-8 about-text">
+      <h2>I Am:</h2>
+      <ul>
+        <li>A computer science student</li>
+        <li>Attending <a href="http://sou.edu" target="_blank">Southern Oregon University</a></li>
+        <li>A junior in credits</li>
+        <li>Messing around with <a href="https://freecodecamp.com" target="_blank">FreeCodeCamp</a> for fun</li>
+      </ul>
+      <hr>
+      <h2>I Know:</h2>
+      <ul>
+        <li>Some HTML &amp; CSS &amp; JS.</li>
+        <li>Advanced Java &amp; C.</li>
+        <li>Linux &amp; Basic Server Administration.</li>
+        <li>Haskell.</li>
+        <li>Git.</li>
+        <li>SQL.</li>
+        <li>Networking &amp; Security Basics.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="row main2">
+    <div class="col-md-12 portfolio">
+      <h1 class="text-center">Portfolio</h1>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="http://placehold.it/400x400" alt="project 1">
+        <div class="caption">
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet, albucius posidonium ad sed, ex mea iusto graece populo. Est esse consequat eu. Sit ei consul posidonium. Graeci euismod ut duo, ex duo sale congue labore, nec ut suscipit persecuti. Ferri alienum cu est.</p>
+          <p><a href="#" class="btn btn-primary" role="button">View More</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="http://placehold.it/400x400" alt="project 2">
+        <div class="caption">
+          <h3>Project 2</h3>
+          <p>Clita nullam malorum te quo. Est perfecto concludaturque ex. Alii harum cu has, at sit oblique ceteros posidonium. Sale elitr sit ut, eu dico debet nostro ius. Sit nisl interesset ei, sit libris ornatus partiendo no. Cu mei latine pertinacia
+            dissentiet, mei eu quod decore reformidans.</p>
+          <p><a href="#" class="btn btn-primary" role="button">View More</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <img src="http://placehold.it/400x400" alt="project 3">
+        <div class="caption">
+          <h3>Project 3</h3>
+          <p>Sed ignota sapientem vulputate ut, quo praesent maiestatis ex. Sit nonumy definitiones ei. Vim ad solum assentior. Commune laboramus assueverit usu eu, an habeo voluptatum his. Sit omittam noluisse in, eu sea euismod eruditi interpretaris.</p>
+          <p><a href="#" class="btn btn-primary" role="button">View More</a> <a href="#" class="btn btn-default" role="button">Share</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row main">
+    <div class="col-md-12 contact">
+      <h1 class="text-center">Contact Me</h1>
+      <hr class="col-md-6 col-md-offset-3">
+    </div>
+
+    <div class="col-md-6 col-sm-6 col-xs-12 contact-form">
+      <form method="post">
+        <div class="form-group ">
+          <label class="control-label requiredField" for="name">
+       Name
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+          <input class="form-control" placeholder="Jonny Appleseed" id="name" name="name" type="text" />
+        </div>
+        <div class="form-group ">
+          <label class="control-label requiredField" for="email">
+       Email
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+          <input class="form-control" id="email" placeholder="me@email.com" name="email" type="text" />
+        </div>
+        <div class="form-group ">
+          <label class="control-label " for="subject">
+       Subject
+      </label>
+          <input class="form-control" id="subject" placeholder="Hi Chandler!" name="subject" type="text" />
+        </div>
+        <div class="form-group ">
+          <label class="control-label requiredField" for="message">
+       Message
+       <span class="asteriskField">
+        *
+       </span>
+      </label>
+          <textarea class="form-control" cols="40" id="message" name="message" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+          <div>
+            <button class="btn btn-primary submit-button" name="submit" type="submit">
+        Send
+       </button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-md-5">
+      <p class="contact-stuff text-center">
+        Hey, thanks for checking out my portfolio. If you would like to get in contact with me, please use the form to your left. I will try to get back to you as soon as possible :).
+      </p>
+      <hr>
+      <h2 class="text-center">About this Site</h2>
+      <p class="contact-stuff text-center">
+        This site was made as a project for FreeCodeCamp.com's Front End Development Certificate. <br><br><strong>Total Time Taken: 3 hours.</strong>
+      </p>
+      <hr>
+      <h2 class="around">Find Me Around the Web: </h2>
+      <div class="col-md-1 sm-links"><a href="    https://www.linkedin.com/in/chandler-severson-201ba78b" target="_blank"><i class="fa fa-linkedin-square"></i></a></div>
+      <div class="col-md-1 sm-links"><a href="https://github.com/chandl" target="_blank"><i class="fa fa-github-square"></i></a></div>
+      <div class="col-md-1 sm-links"><a href="https://instagram.com/cgfxs" target="_blank"><i class="fa fa-instagram"></i></a></div>
+      <div class="col-md-1 sm-links"><a href="https://twitter.com/cgfxs" target="_blank"><i class="fa fa-twitter-square"></i></a></div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row nb">
+    <p class="foot text-right">Copyright &copy; <a href="https://cseverson.com" target="_blank">Chandler Severson</a> 2016</p>
+  </div>
+</div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
